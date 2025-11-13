@@ -10,4 +10,23 @@ body{
   align-items: center;
   justify-content: center;
   gap: 50px;
+  margin-bottom: 50px;
+  background-image: url('foto.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h3{
+  color: crimson;
+}
+
+input{
+  padding: 10px;
+  border: none;
+  border: 2px solid gray;
+  font-size: 18px;
+  border-radius: 999px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

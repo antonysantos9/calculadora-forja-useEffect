@@ -28,8 +28,12 @@ function App() {
   }, [n1, n2])
 
   return (
+
     <>
+    <button className={style.btnClose} >X</button>
+     <div className={style.wrapAll}>
       <h1 className={style.title}>Calculadora</h1>
+      <p className={style.subTitulo}>Digite um numero para o calculo</p>
       <div className={style.wrap}>
         <input
           type="number"
@@ -46,31 +50,32 @@ function App() {
       </div>
 
       <div className={style.wrapResps}>
-        <h2>Resultado da soma</h2>
+        <h2>Resultado da Soma =</h2><br />
         <h3>{respSoma}</h3>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
       </div>
 
       <div className={style.wrapResps}>
-        <h2>Resultado da subtraçao</h2>
+        <h2>Resultado da Subtração =</h2><br />
         <h3>{respSub}</h3>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
       </div>
 
       
       <div className={style.wrapResps}>
-        <h2>Resultado da multiplicaçao</h2>
+        <h2>Resultado da Multiplicação =</h2><br />
         <h3>{respMult}</h3>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
       </div>
 
       
       <div className={style.wrapResps}>
-        <h2>Resultado da divisao</h2>
+        <h2>Resultado da Divisão =</h2><br />
         <h3>{respDiv}</h3>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
       </div>
+
+    
+
+    </div>
     </>
+   
   )
 }
 

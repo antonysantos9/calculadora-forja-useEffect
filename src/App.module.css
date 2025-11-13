@@ -1,5 +1,81 @@
 .title{
-    color:red;
+    color:rgb(255, 255, 255);
     width: 100%;
     text-align: center;
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    border-bottom: 2px solid gray;
+    text-shadow: 0px 3px 10px rgba(80, 77, 77, 0.849);
 }
+
+.wrapAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  position: relative;
+
+}
+
+.subTitulo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 85, 102);
+    padding: 15px;
+    border-radius: 999px;
+    font-size: 25;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wrapResps{
+    background-color: rgb(22, 15, 15);
+    color: white;
+    padding: 20px;
+    border-radius: 999px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.wrapResps h2{
+font-size: 22px;
+color: white;
+
+}
+
+.wrapResps h3{
+font-size: 18px;
+color: rgb(194, 215, 255);
+
+}
+
+.btnClose{
+    position: fixed ;
+    left: 20px;
+    top: 20px;
+    color: rgb(255, 255, 255) ;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: transparent;
+    opacity: 0.7;
+    border: none;
+}
+
+
+.btnClose:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
